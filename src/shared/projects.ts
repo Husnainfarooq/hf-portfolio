@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: "0",
+    index: 0,
     url: {
       appstore: "https://apps.apple.com/us/app/jobcase/id1506836734",
       playstore:
@@ -31,6 +32,7 @@ export const projects = [
   },
   {
     id: "1",
+    index: 1,
     url: {
       web: "https://store.delaware.pro/en-BE/solutions/field-anywhere",
     },
@@ -59,6 +61,7 @@ export const projects = [
   },
   {
     id: "2",
+    index: 2,
     url: {
       appstore: "https://apps.apple.com/pk/app/hypr-grocery/id1520354430",
       playstore:
@@ -90,6 +93,7 @@ export const projects = [
   },
   {
     id: "3",
+    index: 3,
     url: {
       appstore:
         "https://apps.apple.com/pk/app/sesh-group-video-hangouts-app/id1460684999",
@@ -121,6 +125,7 @@ export const projects = [
   },
   {
     id: "4",
+    index: 4,
     url: {
       web: "https://www.obtech.io/",
     },

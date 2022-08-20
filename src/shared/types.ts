@@ -12,7 +12,7 @@ export interface project {
     playstore?: string;
     web?: string;
   };
-  index?: number;
+  index: number;
 }
 
 export interface allDataType {
