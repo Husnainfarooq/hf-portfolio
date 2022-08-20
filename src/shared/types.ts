@@ -8,9 +8,9 @@ export interface project {
   }[];
   image: string;
   url: {
-    appstore: string;
-    playstore: string;
-    web: string;
+    appstore?: string;
+    playstore?: string;
+    web?: string;
   };
   index: number;
 }
