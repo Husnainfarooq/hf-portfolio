@@ -13,30 +13,30 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="/rounded-avatar.png"
+          href="/a-logo.png"
           type="image/x-icon"
         />
 
-        <title>{`NAPTheDev's Portfolio`}</title>
+        <title>{`Asad's Portfolio`}</title>
 
-        <meta name="title" content="NAPTheDev's Portfolio" />
-        <meta name="description" content="Nguyen Anh Phong's Portfolio" />
+        <meta name="title" content="Asad's Portfolio" />
+        <meta name="description" content="Asad Shabir's Portfolio" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="NAPTheDev's Portfolio" />
+        <meta property="og:title" content="Asad's Portfolio" />
         <meta
           property="og:description"
-          content="Nguyen Anh Phong's Portfolio"
+          content="Asad Shabir's Portfolio"
         />
-        <meta property="og:image" content="/avatar.jpg" />
+        <meta property="og:image" content="/a-logo.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="NAPTheDev's Portfolio" />
+        <meta property="twitter:title" content="Asad's Portfolio" />
         <meta
           property="twitter:description"
-          content="Nguyen Anh Phong's Portfolio"
+          content="Asad Shabir's Portfolio"
         />
-        <meta property="twitter:image" content="/avatar.jpg" />
+        <meta property="twitter:image" content="/a-logo.png" />
       </Head>
       <LazyMotion features={domAnimation}>
         <Component {...pageProps} />

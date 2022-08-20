@@ -4,13 +4,14 @@ import { BiChevronsDown } from "react-icons/bi";
 import Canvas from "./Canvas";
 import { characters } from "../shared/contants";
 import { m } from "framer-motion";
+import Scroll from "./Scroll";
 
 const Intro: FC = () => {
   return (
     <div className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas />
 
-      <svg
+      {/* <svg
         className="h-[10vw] max-h-[100px] min-h-[60px] max-w-[100vw] z-[1]"
         viewBox="0 0 276 97"
         fill="none"
@@ -36,31 +37,31 @@ const Intro: FC = () => {
             ></m.path>
           </Fragment>
         ))}
-      </svg>
+      </svg> */}
       <m.p
         data-scroll
-        data-scroll-speed="1"
+        data-scroll-speed="5"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 1.4 }}
-        className="text-3xl text-center z-[1] overflow-hidden"
+        className="text-6xl text-center z-[1] overflow-hidden font-bold"
       >
-        {`I'm a frontend developer`}
+        {`Asad Shabir`}
+      </m.p>
+      <m.p
+        data-scroll
+        data-scroll-speed="5"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.4 }}
+        className="text-3xl text-center z-[1] overflow-hidden my-10"
+      >
+        I&apos;m a Software Engineer
+        <br />
+        with expertise in hybrid mobile app development.
       </m.p>
 
-      <m.a
-        data-scroll
-        data-scroll-speed="2"
-        data-scroll-delay="1"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }}
-        className="absolute left-[calc(50%-23px)] bottom-[10vh] cursor-pointer"
-        href="#who"
-        data-scroll-to
-      >
-        <BiChevronsDown className="animate-bounce" size={56} />
-      </m.a>
+      <Scroll id="who" />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { allDataType } from "../shared/types";
+import Scroll from "./Scroll";
 
 interface SkillsProps {
   skills: allDataType["skills"];
@@ -7,22 +8,25 @@ interface SkillsProps {
 
 const Skills: FC<SkillsProps> = ({ skills }) => {
   return (
-    <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-center z-[4]">
+    <div
+      id="skills"
+      className="px-[6vw] lg:px-[15vw] py-[80px] z-[2] lg:min-h-[70vh] flex flex-col items-center justify-center"
+    >
       <h1
         data-scroll
-        data-scroll-direction="horizontal"
-        data-scroll-speed="-1"
+        data-scroll-direction="vertical"
+        data-scroll-speed="1"
         className="text-center text-3xl lg:text-4xl"
       >
         My skills & Knowledge
       </h1>
       <p
         data-scroll
-        data-scroll-direction="horizontal"
+        data-scroll-direction="vertical"
         data-scroll-speed="1"
         className="description text-lg text-center my-[30px]"
       >
-        Technologies and languages that I use to make my product everyday
+        Technologies and languages that I use to make projects everyday
       </p>
       <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
@@ -42,6 +46,7 @@ const Skills: FC<SkillsProps> = ({ skills }) => {
           </a>
         ))}
       </div>
+      <Scroll id="mainProjects" />
     </div>
   );
 };

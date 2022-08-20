@@ -1,20 +1,27 @@
+export interface project {
+  id: string;
+  title: string;
+  description: string;
+  technologies: {
+    title: string;
+    url: string;
+  }[];
+  image: string;
+  url: {
+    appstore: string;
+    playstore: string;
+    web: string;
+  };
+  index: number;
+}
+
 export interface allDataType {
   skills: {
     image: string;
     title: string;
     link: string;
   }[];
-  projects: {
-    id: string;
-    title: string;
-    description: string;
-    demo: string;
-    github: string;
-    technologies: string[];
-    image: {
-      url: string;
-    };
-  }[];
+  projects: project[];
   smallProjects: {
     id: string;
     title: string;
