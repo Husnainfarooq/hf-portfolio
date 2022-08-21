@@ -61,7 +61,7 @@ const Contact: FC = () => {
               >
                 <img
                   className="w-[30px] h-[30px] rounded-full"
-                  src={process.env.NEXT_PUBLIC_ASSETS + item.icon}
+                  src={item.icon}
                   alt=""
                 />
                 <h1>{item.title}</h1>

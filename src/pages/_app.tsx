@@ -11,7 +11,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/a-logo.png" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="https://i.ibb.co/fnb8VMt/a-logo.png"
+          type="image/x-icon"
+        />
 
         <title>{`Asad's Portfolio`}</title>
 
@@ -21,7 +25,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Asad's Portfolio" />
         <meta property="og:description" content="Asad Shabir's Portfolio" />
-        <meta property="og:image" content="/a-logo.png" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/fnb8VMt/a-logo.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Asad's Portfolio" />
@@ -29,7 +36,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           property="twitter:description"
           content="Asad Shabir's Portfolio"
         />
-        <meta property="twitter:image" content="/a-logo.png" />
+        <meta
+          property="twitter:image"
+          content="https://i.ibb.co/fnb8VMt/a-logo.png"
+        />
       </Head>
       <LazyMotion features={domAnimation}>
         <Component {...pageProps} />
