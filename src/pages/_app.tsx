@@ -11,11 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link
-          rel="shortcut icon"
-          href="/a-logo.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/a-logo.png" type="image/x-icon" />
 
         <title>{`Asad's Portfolio`}</title>
 
@@ -24,10 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Asad's Portfolio" />
-        <meta
-          property="og:description"
-          content="Asad Shabir's Portfolio"
-        />
+        <meta property="og:description" content="Asad Shabir's Portfolio" />
         <meta property="og:image" content="/a-logo.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
