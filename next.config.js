@@ -22,6 +22,8 @@ const nextConfig = {
 
     return config;
   },
+  basePath: "/portfolio",
+  assetPrefix: "/portfolio",
 };
 
 module.exports = withAnalyzer(nextConfig);
