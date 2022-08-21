@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef } from "react";
 
-import { canvasImages } from "../shared/contants";
+import { canvasImages } from "../shared/constants";
 import { m } from "framer-motion";
 
 const Canvas: FC = () => {
@@ -94,7 +94,7 @@ const Canvas: FC = () => {
 
     let expectedSize = Math.round(innerWidth / 20);
     let SIZE = expectedSize < 30 ? 30 : expectedSize > 50 ? 50 : expectedSize;
-    console.log('width:', innerWidth, SIZE);
+    console.log("width:", innerWidth, SIZE);
     const setup = () => {
       let expectedSize = Math.round(innerWidth / 20);
       SIZE = expectedSize < 30 ? 30 : expectedSize > 50 ? 50 : expectedSize;

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { socialLinks } from "../shared/contants";
+import { socialLinks } from "../shared/constants";
 
 const Contact: FC = () => {
   return (
