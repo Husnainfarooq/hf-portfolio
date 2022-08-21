@@ -15,7 +15,7 @@ const Contact: FC = () => {
         <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
           <div className="flex-1">
             <form
-              action={process.env.NEXT_PUBLIC_FORM_URL}
+              action={"action"}
               method="POST"
               className="flex flex-col gap-2"
             >
@@ -61,7 +61,7 @@ const Contact: FC = () => {
               >
                 <img
                   className="w-[30px] h-[30px] rounded-full"
-                  src={item.icon}
+                  src={process.env.NEXT_PUBLIC_ASSETS + item.icon}
                   alt=""
                 />
                 <h1>{item.title}</h1>
