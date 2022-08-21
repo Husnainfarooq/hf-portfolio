@@ -42,7 +42,7 @@ const Project: FC<project> = ({
           ))}
         </div>
 
-        <div className="flex mt-[25px] gap-[20px]">
+        <div className="flex my-[25px] gap-[20px] sm:mb-5">
           {url?.web && (
             <a
               href={url?.web}
