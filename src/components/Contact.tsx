@@ -14,42 +14,38 @@ const Contact: FC = () => {
       >
         <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
           <div className="flex-1">
-            <form
-              action={"action"}
-              method="POST"
-              className="flex flex-col gap-2"
-            >
-              <label htmlFor="name">Your name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="John Doe"
-                required
-                minLength={3}
-              />
-              <label htmlFor="email">Your email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="johndoe@gmail.com"
-                required
-              />
-              <label htmlFor="subject">Subject</label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                placeholder="I want to talk to you"
-                required
-              />
-              <button className="mt-2 py-2 text-white rounded transition duration-300 flex justify-center items-center gap-[10px] bg-[#1876d2] hover:bg-[#2884e0]">
-                Send
-              </button>
-            </form>
+            <h1 className="text-xl font-bold mb-3">Contact me</h1>
+            <p className="mb-3">
+              If you want to contact me, you can do it through the following
+              <p className="mt-3">Email: </p>
+              <a
+                href="mailto:asadbutt667@gmail.com"
+                className="flex gap-3 items-center hover:bg-slate-900 p-2 transition duration-300"
+              >
+                <img
+                  className="w-[30px] h-[23px] "
+                  src="https://i.ibb.co/N12cYjr/gmail-icon-logo-png-transparent.png"
+                  alt=""
+                />
+                asadbutt667@gmail.com
+              </a>
+              <p className="mt-1">Phone: </p>
+              <a
+                href="tel:+923316559291"
+                className="flex gap-3 items-center hover:bg-slate-900 p-2 transition duration-300"
+              >
+                <img
+                  className="w-[30px] h-[30px] "
+                  src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png"
+                  alt=""
+                />
+                +92331-6559291
+              </a>
+            </p>
+
+            <div className="flex flex-col gap-2"></div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 mt-8">
             <h1 className="text-xl mb-3">Other places</h1>
             {socialLinks.map((item) => (
               <a

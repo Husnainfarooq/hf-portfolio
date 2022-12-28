@@ -3,6 +3,42 @@ export const projects = [
     id: "0",
     index: 0,
     url: {
+      web: "https://www.web.ricult.com/",
+      playstore:
+        "https://play.google.com/store/apps/details?id=io.ionic.ricultadminapp&hl=en&gl=US",
+    },
+    description:
+      "The Digital Financial Solution for farmers Ricult envisions a world where smallholder farmers can be free of financial burden by democratizing lending for farmers.",
+    image:
+      "https://play-lh.googleusercontent.com/Ci9gQ3dclBY0JOpw-qACpF-WXSkW4DyDVxQ4K1ZV2sgDBl-d1FeKDUIx6RHYYPjOdHQ",
+    technologies: [
+      {
+        title: "Typescript",
+        url: "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg",
+      },
+      {
+        title: "React Native",
+        url: "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg",
+      },
+      {
+        title: "Nx",
+        url: "https://nrwl.io/assets/nrwl-nx-blue.svg",
+      },
+      {
+        title: "Redux",
+        url: "https://cdn.cdnlogo.com/logos/r/37/redux.svg",
+      },
+      {
+        title: "Jest",
+        url: "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/jest.svg",
+      },
+    ],
+    title: "Ricult App",
+  },
+  {
+    id: "1",
+    index: 1,
+    url: {
       appstore: "https://apps.apple.com/us/app/jobcase/id1506836734",
       playstore:
         "https://play.google.com/store/apps/details?id=com.jobcase.member&hl=en&gl=US",
@@ -31,8 +67,8 @@ export const projects = [
     title: "Jobcase App",
   },
   {
-    id: "1",
-    index: 1,
+    id: "2",
+    index: 2,
     url: {
       web: "https://store.delaware.pro/en-BE/solutions/field-anywhere",
     },
@@ -60,8 +96,8 @@ export const projects = [
     title: "FieldAnywhere App",
   },
   {
-    id: "2",
-    index: 2,
+    id: "3",
+    index: 3,
     url: {
       appstore: "https://apps.apple.com/pk/app/hypr-grocery/id1520354430",
       playstore:
@@ -92,8 +128,8 @@ export const projects = [
     title: "Hypr App",
   },
   {
-    id: "3",
-    index: 3,
+    id: "4",
+    index: 4,
     url: {
       appstore:
         "https://apps.apple.com/pk/app/sesh-group-video-hangouts-app/id1460684999",
@@ -124,8 +160,8 @@ export const projects = [
     title: "Sesh App",
   },
   {
-    id: "4",
-    index: 4,
+    id: "5",
+    index: 5,
     url: {
       web: "https://www.obtech.io/",
     },
