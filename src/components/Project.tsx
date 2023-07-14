@@ -34,7 +34,7 @@ const Project: FC<project> = ({
           {technologies.map((tech) => (
             <img
               key={tech.title}
-              className="w-[30px] h-[30px]"
+              className="w-[30px] h-[30px] object-contain"
               src={tech.url}
               title={tech.title}
               alt=""

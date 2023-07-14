@@ -22,7 +22,7 @@ export const projects = [
       },
       {
         title: "Nx",
-        url: "https://nrwl.io/assets/nrwl-nx-blue.svg",
+        url: "https://seeklogo.com/images/N/nx-logo-8EB5A23B44-seeklogo.com.png",
       },
       {
         title: "Redux",
