@@ -33,16 +33,16 @@ export const socialLinks = [
   {
     title: "Github",
     icon: "https://i.ibb.co/gwDc6Z4/github.png",
-    link: "https://github.com/asad520",
+    link: "https://github.com/Husnainfarooq",
   },
-  {
-    title: "Facebook",
-    icon: "https://i.ibb.co/F6V5QvY/facebook.png",
-    link: "https://www.facebook.com/FrozenRobot1/",
-  },
+  // {
+  //   title: "Facebook",
+  //   icon: "https://i.ibb.co/F6V5QvY/facebook.png",
+  //   link: "https://www.facebook.com/FrozenRobot1/",
+  // },
   {
     title: "Linkedin",
     icon: "https://i.ibb.co/VvJ0pgy/linkedin.png",
-    link: "https://www.linkedin.com/in/asadbutt05/",
+    link: "https://www.linkedin.com/in/husnainfarooq365/",
   },
 ];
