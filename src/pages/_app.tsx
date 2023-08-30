@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="twitter:image"
-          content="https://i.ibb.co/fnb8VMt/a-logo.png"
+          content="/a-logo-rounded.png"
         />
       </Head>
       <LazyMotion features={domAnimation}>
