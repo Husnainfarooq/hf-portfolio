@@ -14,7 +14,7 @@ const Who: FC = () => {
           data-scroll
           data-scroll-speed="2"
           className="w-[225px] h-[225px] rounded-full mr-6"
-          src="https://i.ibb.co/ZJHw5RN/dp.png"
+          src="/dp.png"
           alt="Me"
         />
         <div>

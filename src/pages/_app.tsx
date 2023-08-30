@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="https://i.ibb.co/fnb8VMt/a-logo.png"
+          href="/a-logo-rounded.png"
           type="image/x-icon"
         />
 
@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:description" content="Husnain Farooq's Portfolio" />
         <meta
           property="og:image"
-          content="https://i.ibb.co/fnb8VMt/a-logo.png"
+          content="/a-logo-rounded.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
