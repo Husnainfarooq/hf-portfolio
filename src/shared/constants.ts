@@ -35,11 +35,11 @@ export const socialLinks = [
     icon: "https://i.ibb.co/gwDc6Z4/github.png",
     link: "https://github.com/Husnainfarooq",
   },
-  // {
-  //   title: "Facebook",
-  //   icon: "https://i.ibb.co/F6V5QvY/facebook.png",
-  //   link: "https://www.facebook.com/FrozenRobot1/",
-  // },
+  {
+    title: "Facebook",
+    icon: "https://i.ibb.co/F6V5QvY/facebook.png",
+    link: "https://www.facebook.com/FrozenRobot1/",
+  },
   {
     title: "Linkedin",
     icon: "https://i.ibb.co/VvJ0pgy/linkedin.png",
