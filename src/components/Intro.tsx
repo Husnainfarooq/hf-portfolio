@@ -46,7 +46,7 @@ const Intro: FC = () => {
         transition={{ duration: 0.4, delay: 1.4 }}
         className="text-6xl text-center z-[1] overflow-hidden font-bold"
       >
-        {`Asad Shabir`}
+        {`Husnain Farooq`}
       </m.p>
       <m.p
         data-scroll

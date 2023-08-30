@@ -14,7 +14,7 @@ const Who: FC = () => {
           data-scroll
           data-scroll-speed="2"
           className="w-[225px] h-[225px] rounded-full mr-6"
-          src="https://i.ibb.co/ZJHw5RN/dp.jpg"
+          src="https://i.ibb.co/ZJHw5RN/dp.png"
           alt="Me"
         />
         <div>
@@ -24,14 +24,14 @@ const Who: FC = () => {
 
           {/* Hide my age :v */}
           <p data-scroll className="text-lg text-gray-200" id="story">
-            &emsp;My name is Asad Shabir. I&apos;m a
-            {true ? ` ${new Date().getFullYear() - 1998} years old` : ""}{" "}
-            frontend developer living in Pakistan. I started learning
-            development when I was 18. Since then, I have made a lot of
-            projects, from basic HTML pages to complex mobile applications. I
-            hope to be a great developer and get my dream job in the future.
+            &emsp;My name is Husnain Farooq. I&apos;m a
+            {true ? ` ${new Date().getFullYear() - 1999} years old` : ""}{" "}
+            Full Stack developer living in Pakistan. I started learning
+            development when I started my Software Engineering. Since then, I have made a lot of
+            projects, from basic HTML pages to complex mobile applications. 
+            I'm trying to be a better version of myself and get my dream come true in the future.
             Besides coding, I also like listening to music and playing video
-            games
+            games as well as working out at gym.
           </p>
         </div>
       </div>
