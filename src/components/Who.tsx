@@ -29,7 +29,7 @@ const Who: FC = () => {
             Full Stack developer living in Pakistan. I started learning
             development when I started my Software Engineering. Since then, I have made a lot of
             projects, from basic HTML pages to complex mobile applications. 
-            I'm trying to be a better version of myself and get my dream come true in the future.
+            I&apos;m trying to be a better version of myself and get my dream come true in the future.
             Besides coding, I also like listening to music and playing video
             games as well as working out at gym.
           </p>
