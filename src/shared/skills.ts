@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     image:
-      "https://static1.xdaimages.com/wordpress/wp-content/uploads/2018/02/Flutter-Framework-Feature-Image-Background-Colour.png",
+      "/hf-portfolio/icons8-flutter.svg",
     title: "Flutter",
     link: "https://flutter.dev/",
   },
@@ -21,31 +21,43 @@ export const skills = [
     image:
       "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/java.svg",
     title: "Java",
-    link: "https://reactjs.org/",
+    link: "https://www.java.com/en/",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/database.svg",
-    title: "NextJS",
-    link: "https://nextjs.org/",
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/gradle.svg",
+    title: "Gradle",
+    link: "https://gradle.org/",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/jest.svg",
-    title: "Jest",
-    link: "https://jestjs.io/",
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/xml.svg",
+    title: "XML",
+    link: "https://www.xml-sitemaps.com/",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/swift.svg",
-    title: "Swift",
-    link: "https://developer.apple.com/swift/",
+      "/hf-portfolio/mysql-logo.svg",
+    title: "MySQL",
+    link: "https://www.mysql.com/",
   },
   {
     image:
-      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg",
-    title: "TailwindCSS",
-    link: "https://tailwindcss.com/",
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/php.svg",
+    title: "Php",
+    link: "https://www.php.net/",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/kotlin.svg",
+    title: "Kotlin",
+    link: "https://kotlinlang.org/",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/drawio.svg",
+    title: "Draw io",
+    link: "https://app.diagrams.net/",
   },
   {
     image:
@@ -70,6 +82,24 @@ export const skills = [
       "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/firebase.svg",
     title: "Firebase",
     link: "https://firebase.google.com/",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/laravel.svg",
+    title: "Laravel",
+    link: "https://laravel.com/",
+  },
+  {
+    image:
+      "https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/powershell.svg",
+    title: "Power Shell",
+    link: "https://learn.microsoft.com/en-us/powershell/",
+  },
+  {
+    image:
+      "/hf-portfolio/postman.svg",
+    title: "Postman",
+    link: "https://www.postman.com/",
   },
 ];
 
