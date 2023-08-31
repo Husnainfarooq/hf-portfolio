@@ -63,9 +63,9 @@ export const projects = [
   {
     id: "2",
     index: 2,
-    // url: {
-    //   web: "https://store.delaware.pro/en-BE/solutions/field-anywhere",
-    // },
+    url: {
+      web: "#",
+    },
     description:
       "Discover Elzapower, your all-in-one financial app! Recharge, withdraw, and earn commissions with our user-friendly platform. Invest in plans for daily profits. Your financial freedom awaits!",
     image: "https://i.ibb.co/g6nTSXr/elzapower.jpg",
