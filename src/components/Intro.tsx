@@ -58,7 +58,7 @@ const Intro: FC = () => {
       >
         I&apos;m a Software Engineer
         <br />
-        with expertise in hybrid mobile app development.
+        with expertise in Native & Hybrid mobile app development.
       </m.p>
 
       <Scroll id="who" />
