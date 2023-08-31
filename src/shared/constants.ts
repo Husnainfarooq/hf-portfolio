@@ -8,22 +8,29 @@ export const characters = [
 ];
 
 export const canvasImages = [
+  "android",
+  "dart",
+  "java",
+  "database",
+  "laravel",
+  "kotlin",
   "html",
   "javascript",
   "css",
   "react",
   "typescript",
   "vue",
-  "svelte",
+  "maven",
   "nodejs",
-  "tailwindcss",
+  "gradle",
   "sass",
-  "next",
+  "swift",
   "firebase",
   "vscode",
   "git",
   "vite",
   "webpack",
+  
 ].map(
   (icon) =>
     `https://images.weserv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FPKief%2Fvscode-material-icon-theme%40main%2Ficons%2F${icon}.svg&w=50&h=50`
@@ -35,11 +42,11 @@ export const socialLinks = [
     icon: "https://i.ibb.co/gwDc6Z4/github.png",
     link: "https://github.com/Husnainfarooq",
   },
-  {
-    title: "Facebook",
-    icon: "https://i.ibb.co/F6V5QvY/facebook.png",
-    link: "https://www.facebook.com/FrozenRobot1/",
-  },
+  // {
+  //   title: "Facebook",
+  //   icon: "https://i.ibb.co/F6V5QvY/facebook.png",
+  //   link: "https://www.facebook.com/FrozenRobot1/",
+  // },
   {
     title: "Linkedin",
     icon: "https://i.ibb.co/VvJ0pgy/linkedin.png",
