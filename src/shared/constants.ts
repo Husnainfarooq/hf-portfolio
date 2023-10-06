@@ -43,18 +43,18 @@ export const socialLinks = [
     link: "https://github.com/Husnainfarooq",
   },
   {
-    title: "Titter",
+    title: "Twitter",
     icon: "https://i.ibb.co/sgwnG1C/pngwing-com.png",
     link: "https://twitter.com/610Husnain",
   },
   {
-    title: "Linkedin",
+    title: "LinkedIn",
     icon: "https://i.ibb.co/VvJ0pgy/linkedin.png",
     link: "https://www.linkedin.com/in/husnainfarooq365/",
   },
   {
-    title: "Buy me a Coffee",
-    icon: "https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png",
+    title: "Buy Me a Coffee",
+    icon: "https://i.ibb.co/Vqk8qL5/Buy-Me-a-Coffee.png",
     link: "https://www.buymeacoffee.com/husnainfarooq",
   },
 ];
