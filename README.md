@@ -3,6 +3,7 @@
 My personal portfolio
 
 ## Live demo
+You can check out the live demo [here](https://husnainfarooq.github.io/hf-portfolio/).
 
 ## Main technology used
 
