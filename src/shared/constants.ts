@@ -42,14 +42,19 @@ export const socialLinks = [
     icon: "https://i.ibb.co/gwDc6Z4/github.png",
     link: "https://github.com/Husnainfarooq",
   },
-  // {
-  //   title: "Facebook",
-  //   icon: "https://i.ibb.co/F6V5QvY/facebook.png",
-  //   link: "https://www.facebook.com/FrozenRobot1/",
-  // },
+  {
+    title: "Titter",
+    icon: "https://i.ibb.co/sgwnG1C/pngwing-com.png",
+    link: "https://twitter.com/610Husnain",
+  },
   {
     title: "Linkedin",
     icon: "https://i.ibb.co/VvJ0pgy/linkedin.png",
     link: "https://www.linkedin.com/in/husnainfarooq365/",
+  },
+  {
+    title: "Buy me a Coffee",
+    icon: "https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png",
+    link: "https://www.buymeacoffee.com/husnainfarooq",
   },
 ];
